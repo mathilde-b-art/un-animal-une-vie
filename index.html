@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Un Animal, Une Vie</title>
+<style>
+:root{--cream:#fffaf2;--green:#789b83;--blue:#8ca9c0;--ink:#30423a;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{position:sticky;top:0;z-index:5;background:#fffdf9ee;backdrop-filter:blur(10px);border-bottom:1px solid #e9e1d5}
+.nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:800;font-size:1.15rem;color:var(--green);text-decoration:none}.logo span{color:var(--blue)}
+nav{display:flex;flex-wrap:wrap;gap:14px}nav a{color:var(--ink);text-decoration:none;font-size:.92rem}nav a:hover{color:var(--green)}
+.hero{max-width:1100px;margin:auto;padding:80px 22px 65px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.badge{display:inline-block;background:#e5efe7;color:#52735e;padding:7px 13px;border-radius:99px;font-weight:700}
+h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1.02;margin:18px 0 12px}h1 span{color:var(--blue)}
+h2{font-size:2rem;margin-top:0}.lead{font-size:1.18rem;max-width:650px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;padding:13px 19px;border-radius:14px;text-decoration:none;font-weight:700;border:2px solid var(--green)}.primary{background:var(--green);color:white}.secondary{color:var(--ink);background:white}
+.art{min-height:360px;border-radius:38% 62% 55% 45%;background:linear-gradient(145deg,#e6efe8,#dce9f2);display:flex;align-items:center;justify-content:center;font-size:7rem;letter-spacing:-20px;box-shadow:0 20px 45px #8ca9c022}
+section{padding:75px 22px}.inner{max-width:1000px;margin:auto}.center{text-align:center}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #eee5d9;border-radius:22px;padding:24px;box-shadow:0 8px 25px #30423a0b}.icon{font-size:2rem}.quote{background:#dfece3;border-radius:28px;padding:38px;text-align:center;font-size:1.4rem;font-weight:700;margin-top:35px}.quiz{background:#eef4f7;border-radius:28px;padding:30px}.question{margin:22px 0}.question label{display:block;background:white;margin:8px 0;padding:11px 14px;border-radius:12px;cursor:pointer}.result{margin-top:20px;font-weight:700}.notice{background:#fff1e8;border-left:5px solid #d99165;padding:18px;border-radius:10px}
+footer{background:#557b68;color:white;padding:50px 22px;text-align:center}footer strong{font-size:1.4rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:55px}.cards{grid-template-columns:1fr}nav{display:none}.art{min-height:250px;font-size:5rem}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="logo" href="#accueil">Un Animal, <span>Une Vie</span></a>
+<nav>
+<a href="#message">Notre message</a><a href="#avant">Avant d'adopter</a><a href="#maltraitance">Maltraitance</a><a href="#quiz">Quiz</a><a href="#agir">Agir</a>
+</nav></div></header>
+
+<main>
+<section id="accueil" class="hero">
+<div>
+<span class="badge">🐾 Un projet pour eux</span>
+<h1>Un Animal,<br><span>Une Vie.</span></h1>
+<p class="lead"><strong>Une vie à protéger, une responsabilité à respecter.</strong></p>
+<p>Un site pour informer, sensibiliser et rappeler une chose essentielle : un animal est un être vivant, pas un objet.</p>
+<div class="buttons"><a class="btn primary" href="#message">Découvrir notre message</a><a class="btn secondary" href="#agir">Je veux agir</a></div>
+</div>
+<div class="art" aria-label="Illustration décorative d'un chien et d'un chat">🐶 🐱</div>
+</section>
+
+<section id="message"><div class="inner">
+<h2>❤️ Notre message</h2>
+<p>Depuis toute petite, j'aime les animaux. Quand je vois des animaux maltraités ou tués, cela me brise le cœur. C'est pour cela que j'ai créé <strong>Un Animal, Une Vie</strong>.</p>
+<p>Je veux faire comprendre quelque chose d'essentiel :</p>
+<div class="quote">« Un animal est un ÊTRE VIVANT. »<br><small>La moindre chose compte. 🐾</small></div>
+</div></section>
+
+<section id="avant"><div class="inner">
+<h2>🐾 Avant d'adopter</h2><p>Adopter, ce n'est pas acheter. C'est accueillir une vie dont on devient responsable.</p>
+<div class="cards">
+<div class="card"><div class="icon">⏰</div><h3>Ai-je du temps ?</h3><p>Un animal a besoin d'attention, de soins, de jeux et de présence.</p></div>
+<div class="card"><div class="icon">💰</div><h3>Puis-je subvenir à ses besoins ?</h3><p>Nourriture, matériel et vétérinaire font partie des responsabilités.</p></div>
+<div class="card"><div class="icon">🏠</div><h3>Mon environnement lui convient-il ?</h3><p>Il faut penser à l'espace, à la sécurité et aux besoins de l'animal.</p></div>
+<div class="card"><div class="icon">❤️</div><h3>Suis-je prêt pour toute sa vie ?</h3><p>Une adoption est un engagement qui peut durer de nombreuses années.</p></div>
+<div class="card"><div class="icon">👨‍👩‍👧</div><h3>Ma famille est-elle d'accord ?</h3><p>Quand on vit en famille, tout le monde doit être prêt à respecter l'animal.</p></div>
+<div class="card"><div class="icon">🌧️</div><h3>Et si ça devient difficile ?</h3><p>Il faut réfléchir aux vacances, à la maladie, au déménagement et aux imprévus.</p></div>
+</div>
+<div class="notice" style="margin-top:25px"><strong>❤️ Si tu n'es pas prêt aujourd'hui, ce n'est pas grave.</strong><br>Aimer les animaux, c'est aussi savoir reconnaître quand on ne peut pas encore en accueillir un.</div>
+</div></section>
+
+<section id="quiz"><div class="inner">
+<h2>🧠 Quiz — Suis-je prêt(e) à adopter ?</h2>
+<p>Ce quiz ne décide pas à ta place. Il aide simplement à réfléchir. Si tu es enfant, parle toujours de l'adoption avec un adulte responsable.</p>
+<div class="quiz">
+<form id="quizForm">
+<div class="question"><strong>1. As-tu assez de temps à consacrer à un animal ?</strong>
+<label><input type="radio" name="q1" value="2"> Oui, j'ai beaucoup réfléchi à mon organisation.</label>
+<label><input type="radio" name="q1" value="1"> Je ne suis pas encore sûr(e).</label>
+<label><input type="radio" name="q1" value="0"> Non, je manque souvent de temps.</label></div>
+<div class="question"><strong>2. As-tu réfléchi aux dépenses et aux soins vétérinaires ?</strong>
+<label><input type="radio" name="q2" value="2"> Oui, avec un adulte.</label>
+<label><input type="radio" name="q2" value="1"> Un peu.</label>
+<label><input type="radio" name="q2" value="0"> Pas encore.</label></div>
+<div class="question"><strong>3. Que ferais-tu si l'animal faisait une bêtise ?</strong>
+<label><input type="radio" name="q3" value="2"> J'essaierais de comprendre et demanderais conseil.</label>
+<label><input type="radio" name="q3" value="1"> Je ne sais pas encore.</label>
+<label><input type="radio" name="q3" value="0"> Je me mettrais en colère contre lui.</label></div>
+<button class="btn primary" type="submit">Voir mon résultat</button>
+<div id="result" class="result"></div>
+</form></div></div></section>
+
+<section id="maltraitance"><div class="inner">
+<h2>🚨 Quand un animal est maltraité</h2>
+<p><strong>Ne ferme pas les yeux. Mais ne te mets jamais en danger pour intervenir.</strong></p>
+<div class="cards">
+<div class="card"><h3>👀 Des signes qui alertent</h3><p>Blessures inquiétantes, manque évident d'eau ou de nourriture, mauvaises conditions de vie ou grande détresse peuvent nécessiter l'aide d'un adulte.</p></div>
+<div class="card"><h3>🛑 Si tu es témoin</h3><p>Ne confronte pas la personne et ne te mets pas en danger. Parle immédiatement à un adulte de confiance.</p></div>
+<div class="card"><h3>❤️ La moindre chose compte</h3><p>Tu ne peux peut-être pas aider tous les animaux, mais tu peux demander de l'aide pour celui qui se trouve devant toi.</p></div>
+</div>
+</div></section>
+
+<section id="agir"><div class="inner center">
+<h2>🌎 Agir pour eux</h2>
+<p>Il n'est pas nécessaire de faire quelque chose d'énorme pour faire une différence.</p>
+<div class="cards">
+<div class="card"><div class="icon">📚</div><h3>S'informer</h3><p>Apprendre à reconnaître les besoins des animaux et partager des informations fiables.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Sensibiliser</h3><p>Parler du respect des animaux autour de soi avec bienveillance.</p></div>
+<div class="card"><div class="icon">🌱</div><h3>Aider à son échelle</h3><p>Avec un adulte, soutenir un refuge ou une association et respecter les animaux au quotidien.</p></div>
+</div>
+</div></section>
+</main>
+
+<footer><strong>Un Animal, Une Vie</strong><p>Une vie à protéger, une responsabilité à respecter.</p><p>🐾 Ensemble, pour eux. — La moindre chose compte.</p></footer>
+
+<script>
+document.getElementById('quizForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ let total=0, ok=true;
+ for(let i=1;i<=3;i++){let a=this.querySelector('input[name="q'+i+'"]:checked');if(!a)ok=false;else total+=Number(a.value)}
+ const r=document.getElementById('result');
+ if(!ok){r.textContent="🌱 Choisis une réponse à chaque question.";return}
+ if(total>=5) r.textContent="💚 Tu sembles déjà beaucoup réfléchir aux responsabilités de l'adoption ! Continue à te renseigner et parle-en avec un adulte responsable.";
+ else if(total>=3) r.textContent="🌱 Tu as commencé à réfléchir aux responsabilités. Prends encore le temps de te renseigner avec un adulte.";
+ else r.textContent="❤️ Ce n'est pas grave de ne pas être prêt(e). Prendre le temps de réfléchir, c'est déjà respecter les animaux.";
+});
+</script>
+</body></html>
